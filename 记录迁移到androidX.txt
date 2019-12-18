@@ -1,0 +1,16 @@
+在gradle.properties文件中添加以下属性：
+
+android.useAndroidX=true //表示启用androidx
+android.enableJetifier=true //会对依赖库进行迁移
+
+
+
+https://github.com/yuweiguocn/MigrateToAndroidX  使用此批处理替换包引用
+
+升级了科大讯飞jar包Msc.jar
+
+升级butterKnife到 最新，ButterKnife.apply方法没有了，不知道哪去了，代码中修改了下，不用这个方法了先
+
+升级glide到最新
+
+OK了
