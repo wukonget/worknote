@@ -7,6 +7,16 @@ android.enableJetifier=true //会对依赖库进行迁移
 
 https://github.com/yuweiguocn/MigrateToAndroidX  使用此批处理替换包引用
 
+对工程进行Sync确保依赖库已经改为androidx。
+
+打开终端在工程根目录执行以下命令：
+
+git clone git@github.com:yuweiguocn/MigrateToAndroidX.git
+python MigrateToAndroidX/migrate.py
+运行结果：
+
+
+
 升级了科大讯飞jar包Msc.jar
 
 升级butterKnife到 最新，ButterKnife.apply方法没有了，不知道哪去了，代码中修改了下，不用这个方法了先
